@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Motivation Quotes Booster</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Motivation Quotes</h1>
+      <div class="divider"></div>
+    </header>
+    
+    <main>
+      <div class="quote-container">
+        <p id="quote-text" class="quote-text">Click the button below to get motivated!</p>
+        <p id="quote-author" class="quote-author"></p>
+      </div>
+      
+      <button id="new-quote" class="new-quote-btn">New Quote</button>
+      
+      <div class="notification-status">
+        <label class="switch">
+          <input type="checkbox" id="notifications-toggle" checked>
+          <span class="slider round"></span>
+        </label>
+        <span>Notifications <span id="status-text">Enabled</span></span>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Stay motivated! ❤️</p>
+    </footer>
+  </div>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
